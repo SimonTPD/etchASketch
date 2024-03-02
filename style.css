@@ -3,17 +3,36 @@ h1{
     text-align: center;
 }
 
+div.pad-control{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+button{
+    margin: 0;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    margin: 12px auto;
+}
+
 div.pad{
     box-sizing: border-box;
     border: 10px solid black;
-    border-radius: 16 px;
+    border-radius: 16px;
     width: 800px;
     height: 800px;
     padding: 10px;
     margin: 12px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 div.pad-square{
